@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <com.google.android.material.appbar.AppBarLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/appbarlayout_inicio"
+       >
+       <androidx.appcompat.widget.Toolbar
+           android:id="@+id/inicio_toolbar"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:background="@android:color/white"
+           >
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="50dp"
+                   android:layout_alignParentLeft="true"
+                   android:src="@drawable/instalogo" />
+
+
+
+               <ImageView
+                   android:id="@+id/send"
+                   android:layout_width="36dp"
+                   android:layout_height="28dp"
+                    android:layout_alignParentEnd="true"
+                   android:layout_centerInParent="true"
+                   android:src="@drawable/send_icon" />
+
+
+           </RelativeLayout>
+       </androidx.appcompat.widget.Toolbar>
+
+   </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_inicio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbarlayout_inicio"
+        android:layout_marginBottom="5dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

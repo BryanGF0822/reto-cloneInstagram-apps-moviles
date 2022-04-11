@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inicioitemMenu"
+        android:icon="@drawable/outline_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/buscaritemMenu"
+        android:icon="@drawable/outline_search_black_24dp"
+        android:title="Search" />
+    <item
+        android:id="@+id/publicacionitemMenu"
+        android:icon="@drawable/outline_add_box_black_24dp"
+        android:title="Post" />
+    <item
+        android:id="@+id/mercadoitemMenu"
+        android:icon="@drawable/outline_work_outline_black_24dp"
+        android:title="Market" />
+    <item
+        android:id="@+id/perfilitemMenu"
+        android:icon="@drawable/outline_account_circle_black_24dp"
+        android:title="Profile" />
+</menu>
